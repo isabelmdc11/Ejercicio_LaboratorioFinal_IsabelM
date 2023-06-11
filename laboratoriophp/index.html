@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registro de usuarios</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+    <div class="container">
+      <form action="comprobarRegistro.php" method="POST">
+        <p>Registro de Usuarios </p>
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre"required>
+
+
+        <input type="text" id="apellido1" name="apellido1" placeholder=" Primer apellido" required>
+
+        <input type="text" id="apellido2" name="apellido2"  placeholder="Segundo apellido" required><br>
+        
+        <input type="email" id="email" name="email" placeholder="Email" required>
+
+        <input type="text" id="login" name="login" placeholder="Login" required>
+        <input type="password" id="password" name="password" placeholder="Password" minlength="4" maxlength="8" required><br>
+
+        <div class="alinearBotonRegistrar">
+          <button type="submit" name="submit">Enviar</button>
+
+        </div>
+       
+      </form>
+
+
+    </div>
+    
+</body>
+</html>
